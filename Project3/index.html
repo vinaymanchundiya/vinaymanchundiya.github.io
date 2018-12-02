@@ -85,9 +85,9 @@
 						<div class="row">
 							<div class="col-md-12">
 								<h2>How we came up with the idea ? </h2>
-								<p>For 3rd project of CS-491, we decided to work on an Augmented Reality game which is engaging and is based on the collaborative experience design principles. While deciding for the project, we wanted to create something that is easy to use and something that non tech savvy people can also use. Keeping that in mind, we decided to create battle royale themed tank battle. This game is inspired by the combination of game which is inspired by a legacy game titled <a href= "https://www.retrogames.cz/play_014-NES.php?language=EN"> Battle City</a> and the theme of battle royale of popular mobile game<a href="https://en.wikipedia.org/wiki/PlayerUnknown's_Battlegrounds"> PlayersUnkown's Battleground</a>. Owing to its design, this game provides the nostalgic experience of playing a game which we grew up playing in a modern game design. </p>
+								<p>For 3rd project of CS-491, we decided to work on an Augmented Reality game which is engaging and is based on the collaborative experience design principles. While deciding for the project, we wanted to create something that is easy to use and something that non tech savvy people can also use. Keeping that in mind, we decided to create battle royale themed tank battle. This game is inspired by the combination of a legacy game titled <a href= "https://www.retrogames.cz/play_014-NES.php?language=EN"> Battle City</a> and the theme of battle royale of popular multi player game<a href="https://en.wikipedia.org/wiki/PlayerUnknown's_Battlegrounds"> PlayersUnkown's Battleground</a>. Owing to its design, this game provides the nostalgic experience of a game which we grew up playing in a modern game design. </p>
 								<h2>What is this game about ?</h2>
-								<p>As mentioned earlier, this game is inspired from Battle City, each player will be assigned a tank. The motive of the game is to kill opponent tanks. The last man standing will be deemed the winner. The game will spawn many power ups which when redeemed by a player will provide some advantages to the player. Also, there are different kinds of obstacles in the game which will have impact on the tactical approach to the game.</p>
+								<p>As mentioned earlier, this game is inspired from Battle City, each player will be assigned a tank. The motive of the game is to kill opponent tanks.Each player will start with 3 lives and every time the player dies, the number of lives decrease. When the number of lives are exhausted the player dies and can now spectate the game. The last man standing will be declared the winner. The game will spawn many power ups which when redeemed by a player will provide some advantages. Also, there are different kinds of obstacles in the game which will have impact on the tactical approach to the game.</p>
 								<h2>Game features</h2>
 								<p>Following are the key features of the game:</p>
 								<ul>
@@ -98,7 +98,7 @@
 									<li>Features 4 levels to choose from</li>
 								</ul>
 							
-							<p>For a detailed demo click <a href="#">[Add video link here]</a> for Youtube demo video</p>
+							<p>For a detailed demo click <a href="#" style="text-align: center;">[Add video link here]</a> for Youtube demo video</p>
 						</div>
 					</div>
 				</div>
@@ -118,11 +118,142 @@
 						<div class="row">
 							<div class="col-md-12">
 							<h2>How to install the game</h2>
-							<p> To install this game download the game source code from <a href="#">Add drive link here</a>. Unzip the file and open the project in xCode. Maek sure you have Apple developer account. If you do not have the account then you will need to create one. After loading the code into the system, attach your iOS device where you want to install the game. Click on run button and the game will be installed on your iOS device. Reeat the process for other devices as well.</p>
+							<p> To install this game download the game source code from <a href="#" style="text-align: center;">Add drive link here</a>. Unzip the file and open the project in xCode. Make sure you have Apple developer account. If you do not have the account then you will need to create one. After loading the code into the system, attach your iOS device where you want to install the game. Click on run button and the game will be installed on your iOS device. Repeat the process for other devices as well.</p>
 							<h2>How to start the game?</h2>
-							<p></p>
-							<h2>Game tutorial</h2>
-							<p></p>
+							<p>When you start the game, game room screen will pop-up containing the list of players in your room and the players who are available for playing. Please see below a screenshot.<br>
+							<div class="row"> 
+								<div class="col-md-3 col-sm-3 col-xs-3 work animate-box"></div>
+								<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+									<a href="images/gameRoom.jpg" class="image-popup">
+									<img src="images/gameRoom.jpg" class="img-responsive"></a>
+									<h4 style="text-align: center;">Game room screen</h4>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-3 work animate-box"></div>
+							</div>
+							When you click on available players, the player will be added to your room and will disappear from the list of available players. When you have more than 1 player in your game room, you can move to next screen by clicking on start game button. The next screen is the level selection screen. The game offers 4 different arenas to choose from. The user can click on the desired arena to start playing the game. Please see the screen shot below for the level selection screen.
+							<div class="row">
+								<div class="col-md-3 col-sm-3 col-xs-3 work animate-box"></div>
+								<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+									<a href="images/levelSelection.jpg" class="image-popup">
+									<img src="images/levelSelection.jpg" class="img-responsive"></a>
+									<h4 style="text-align: center;">level Selection Screen</h4>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-3 work animate-box"></div>
+							</div>
+							 After clicking on the start play button the game will take you to camera feed of your phone. If it is first time when you are playing the game, the game will ask for access to the camera. After that, you will need to find a horizontal surface to play the game. Make sure that there is enough light in the room as the surface detection does not really work well with poor lighting. When the phone detects a surface, it shows a blue colored grid to highlight it.<br>
+							<div class="row">
+								<div class="col-md-3 col-sm-3 col-xs-3 work animate-box"></div> 
+								<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+									<a href="images/surfaceDetection.jpg" class="image-popup">
+									<img src="images/surfaceDetection.jpg" class="img-responsive"></a>
+									<h4 style="text-align: center;">Surface detection</h4>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-3 work animate-box"></div>
+							</div>
+							 If you do not want to play on that surface, just change your position and the game will detect a different horizontal surface and will show a overlay at that surface. When you are satisfies with the surface to play with, just tap on the blue overlay and system will start to set up the game.A message will appear stating waiting for other players to join the game.<br>
+							<div class="row">
+								<div class="col-md-3 col-sm-3 col-xs-3 work animate-box"></div> 
+								<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+									<a href="images/waitScreen.jpg" class="image-popup">
+									<img src="images/waitScreen.jpg" class="img-responsive"></a>
+									<h4 style="text-align: center;">Player wait screen</h4>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-3 work animate-box"></div>
+							</div>
+							  When the surface is selected, the other players will also need to point the camera at the surface where the game is supposed to be played. The other players might need to move a little bit as the shared surface detection algorithm is not robust enough to handle vast changes in the position of player. When the appropriate surface is detected by all the players, the game will start.
+							</p>
+							<h2>Gameplay</h2>
+							<h3> Tank identification</h3>
+							<p>When the game is started, the players will see an arena with differently colored tanks depending on the number of players the players playing the game. The layout of the arena will vary depending on the arena selected during setting up of the game. There will be a circular marker on the player's tank to identify the tank.  Please see the screen shot below: </p>
+
+							<div class="row"> 
+								<div class="col-md-3 col-sm-3 col-xs-3 work animate-box"></div>
+								<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+									<a href="images/gameStart.jpg" class="image-popup">
+									<img src="images/gameStart.jpg" class="img-responsive"></a>
+									<h4 style="text-align: center;">Game start screen</h4>
+								</div>
+								<div class="col-md-3 col-sm-3 col-xs-3 work animate-box"></div>
+							</div>
+							<h3> Controls</h3>
+							<p>
+								To control your tank, the system provides  buttons whose functions are as follows: 
+								<ul>
+									<li><b>Forward: </b> On pressing this button, the tank starts moving forward. If the button is kept pressed the tank will keep on moving. On unpressing the button the tank will stop.</li>
+									<li><b>Turn Left: </b> On tapping this button, the tank will rotate left by 90 degrees.</li>
+									<li><b>Turn Right: </b> On tapping this button, the tank will rotate right by 90 degrees.</li>
+									<li><b>Backward: </b> On pressing this button, the tank starts moving backward without changing its direction. If the button is kept pressed the tank will keep on moving. On unpressing the button the tank will stop</li>
+									<li><b>Shoot: </b>On tap of this button, the tan will shoot a bullet in the direction of the face of the tank. The user will need to tap this button multiple times to shoot multiple bullets</li>
+								</ul>
+								The player movement, bullet speed and the bullet abilities will change based on the power ups collected by the player over the course of the game. Also, the player tank will not be allowed to move beyond the arena walls.
+							</p>
+							<h3>Terrain</h3>
+							<p>
+								There are 3 different types of terrains that game uses:
+								<ul>
+									<li><b>Brick Walls: </b> The brick walls are red in color and are brittle. On shooting them, they are detroyed. The players are not allowed to pass through the brick wall. </li>
+									<li><b>Steel Wall: </b> The steel wall are gray in color and are strong. The tank bullets are not able to destroy them unless the player has accumulated enough number of star power ups.</li>
+									<li><b>Grass: </b> Grass is camouflaging environement to add tactical advantage to the player using it. When the player is in grass environment, other players cannot see the tank. The bullets pass thrugh the grass environment and hence can be used to ambush.</li>
+								</ul>
+								<div class="row"> 
+								<div class="col-md-4 col-sm-4 col-xs-4 work animate-box">
+									<a href="images/brickWall.jpg" class="image-popup">
+									<img src="images/brickWall.jpg" class="img-responsive"></a>
+									<h4 style="text-align: center;">Brick Wall</h4>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-4 work animate-box">
+									<a href="images/steelWall.jpg" class="image-popup">
+									<img src="images/steelWall.jpg" class="img-responsive"></a>
+									<h4 style="text-align: center;">Steel Wall</h4>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-4 work animate-box">
+									<a href="images/gameStart.jpg" class="image-popup">
+									<img src="images/gameStart.jpg" class="img-responsive"></a>
+									<h4 style="text-align: center;">Grass </h4>
+								</div>
+							</div>
+							</p>
+							<h3>Power ups</h3>
+							<p> The game spawns 1 of 5 different power ups randomly at different locations after pre selected set of time. Following is the list of power-ups and their abilities: </p>
+							<ul>
+								<li><b>Cross: </b>This power up provides a bonus life to the player who collected this powerup.</li>
+								<li><b>Bolt: </b> This power up increases the speed of the tank for a limited time.</li>
+								<li><b>Shield: </b> This power up makes the tank invulnerable to any damage. Also, a circular particle effect will appear on the tank signifying that the tank has collected the given power-up</li>
+								<li><b>Grenade: </b> On click of this power up 5 bullets will be fired from randomly selected locations which can damage other walls and players</li>
+								<li><b>Star: </b> This power up increases the rank of the tank. The rank of the tank defines the tanks speed and bullet patterns. Also, when a tank is shot, its rank decreased. When the rank of tank goes less than one, only then the player loses the life. The description of the ranks of the tank is as follows: </li>
+								<ol>
+									<li><b>Rank 1: </b>This is the base rank of the tank. Every player starts the game with rank 1. Getting shot at rank 1 will make the player lose its life.</li>
+									<li><b>Rank 2: </b>At rank 2, the tank will have faster bullets and faster speed. Getting shot at rank 2 will reduce the rank of tank to rank 1</li>
+									<li><b>Rank 3: </b>At rank 3, the tank will shoot two bullet at a time/ Getting shot at rank 3 will reduce the rank of the tank to level 2</li>
+									<li><b>Rank 4: </b>At rank 4, the tank bullets can now destory steel walls. Getting shot at rank 3 will reduce the rank of the tank to level 2.</li>
+								</ol>
+							</ul>
+							<div class="row"> 
+								<div class="col-md-4 col-sm-4 col-xs-4 work animate-box">
+    								<a href="images/star.jpg" class="image-popup">
+        								<img src="images/star.jpg" class="img-responsive"></a>
+    								<h4 style="text-align: center;">Star</h4>
+								</div>                          
+								<div class="col-md-4 col-sm-4 col-xs-4 work animate-box">
+    								<a href="images/flash.jpg" class="image-popup">
+        								<img src="images/flash.jpg" class="img-responsive"></a>
+    								<h4 style="text-align: center;">Bolt</h4>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-4 work animate-box">
+    								<a href="images/bomb.jpg" class="image-popup">
+        								<img src="images/bomb.jpg" class="img-responsive"></a>
+    								<h4 style="text-align: center;">Grenade</h4>
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+    								<a href="images/shield.jpg" class="image-popup">
+        								<img src="images/shield.jpg" class="img-responsive"></a>
+    								<h4 style="text-align: center;">Shield </h4>
+								</div>
+								<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+    								<a href="images/cross.jpg" class="image-popup">
+        								<img src="images/cross.jpg" class="img-responsive"></a>
+    								<h4 style="text-align: center;">Cross</h4>
+								</div>
 						</div>
 					</div>
 				</div>
@@ -140,10 +271,25 @@
 					<div class="col-md-8 col-sm-8 col-xs-12">
 						<div class="row">
 							<div class="col-md-12">
-							<h2>Key features implemented to make sure that game works well</h2>
-							<p> </p>
 							<h2>Challenges faced</h2>
-							<p></p>
+							<p>
+								Creating a multiplayer augmented reality game is a daunting task. We faced numerous challenges while developing the game. We would like to highlight few of those challenges that we believe every game developer will face while creating a game which supports shared state capability: 
+								<ul>
+									<li>The first challenge that we faced was to make sure that each player is pointing towards same point to start playing the game.</li>
+									<li>The second biggest challenge for us was to make sure that network latency does not put the game state out of sync across different players. So, we had to implement a lot of modular designs to create a consistent experience across all the devices</li>
+									<li>We also faced the challenge of managing the device performance. the game does utilise lots of animations and particle effects. We had to make sure that this does not result in device freezing up or act very slowly</li>
+								</ul>
+							</p>
+							<h2>Key features implemented to make sure that game works well</h2>
+							<p>To make sure that game does well, we had to take certain game architecture design decisions which in our opinion would work great. Following are the features that deserve a mention : </p>
+							<ul>
+								<li>To make sure that every player is looking at the same point, we shared the world coordinate system across all the players. Also, we made sure that there is only one anchor being tracked by the system so that everyone knows at which horizontal plane the system should show the game. </li>
+								<li>When thinking about the networking architecture, we could have emplotyed master slave relationship between the players where the most of the work is done by the host and rest of the players receiving the result of the processing done by the host. However, this would have resulted in the large network latency. So we chose to use the multi peer connectivity architecture where all the players send their movements the other players and then each system simulating those movements at their end.</li>
+								<li>To make sure consistency in game state, we periodically send crucial game state information from each user to other users so that they can update that players data accordingly.</li>
+								<li>To make sure that there is not much load on the bandwidth of the network, we also implemented the event based message system. </li>
+								<li>Since, there has to be a consistent state across all the devices, we chose not to use the physics based system to get more control over the player movements. However, for bullet system we did utilise physics based approach as we do not really need to track the movements of the bullets but their end state.</li>
+							</ul>
+							
 						</div>
 					</div>
 				</div>
@@ -162,57 +308,59 @@
 					<div class="col-md-8 col-sm-8 col-xs-12">
 						<div class="row">
 							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
-								<a href="" class="image-popup">
-								<img src="" class="img-responsive"></a>
+								<a href="images/tank.jpg" class="image-popup">
+									<img src="images/tank.jpg" class="img-responsive"></a>
 								<h4 style="text-align: center;">Tank</h4>
-								<a href="#"> Link</a> 
+								<a href="#" style="text-align: center;"> Link</a> 
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
-								<a href="" class="image-popup">
-								<img src="" class="img-responsive"></a>
+								<a href="images/star.jpg" class="image-popup">
+									<img src="images/star.jpg" class="img-responsive"></a>
 								<h4 style="text-align: center;">Star</h4>
-								<a href="#"> Link</a> 
-							</div>
+								<a href="#" style="text-align: center;"> Link</a> 
+							</div>							
 							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
-								<a href="" class="image-popup">
-								<img src="" class="img-responsive"></a>
-								<h4 style="text-align: center;">Shield</h4>
-								<a href="#"> Link</a> 
-							</div>
-							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
-								<a href="" class="image-popup">
-								<img src="" class="img-responsive"></a>
+								<a href="images/flash.jpg" class="image-popup">
+									<img src="images/flash.jpg" class="img-responsive"></a>
 								<h4 style="text-align: center;">Flash</h4>
-								<a href="#"> Link</a> 
+								<a href="https://sketchfab.com/models/5783fb730c0e44f7a7250b6a6d94c1fa" style="text-align: center;"> Link</a> 
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
-								<a href="" class="image-popup">
-								<img src="" class="img-responsive"></a>
+								<a href="images/bomb.jpg" class="image-popup">
+									<img src="images/bomb.jpg" class="img-responsive"></a>
 								<h4 style="text-align: center;">Bomb</h4>
-								<a href="#"> Link</a> 
+								<a href="#" style="text-align: center;"> Link</a> 
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
-								<a href="" class="image-popup">
-								<img src="" class="img-responsive"></a>
+								<a href="images/brickTexture.jpg" class="image-popup">
+									<img src="images/brickTexture.jpg" class="img-responsive"></a>
 								<h4 style="text-align: center;">Wall texture</h4>
-								<a href="#"> Link</a> 
+								<a href="#" style="text-align: center;"> Link</a> 
 							</div>
 							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
-								<a href="" class="image-popup">
-								<img src="" class="img-responsive"></a>
+								<a href="images/steelTexture.jpg" class="image-popup">
+									<img src="images/steelTexture.jpg" class="img-responsive"></a>
 								<h4 style="text-align: center;">Steel Texture</h4>
-								<a href="#"> Link</a> 
+								<a href="#" style="text-align: center;"> Link</a> 
 							</div>
-
-
-
-
-
-
-								
-
-
-
+							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+								<a href="images/shield.jpg" class="image-popup">
+									<img src="images/shield.jpg" class="img-responsive"></a>
+								<h4 style="text-align: center;">Shield (Handmade)</h4>
+								<a href="#" style="text-align: center;"> Link</a> 
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+								<a href="images/cross.jpg" class="image-popup">
+									<img src="images/cross.jpg" class="img-responsive"></a>
+								<h4 style="text-align: center;">Health Sign(Handmade)</h4>
+								<a href="#" style="text-align: center;"> Link</a> 
+							</div>
+							<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
+								<a href="images/grass.jpg" class="image-popup">
+									<img src="images/grass.jpg" class="img-responsive"></a>
+								<h4 style="text-align: center;">Grass 3d model(Handmade)</h4>
+								<a href="#" style="text-align: center;"> Link</a> 
+							</div>
 
 						</div>
 					</div>
@@ -232,12 +380,11 @@
 						<div class="row">
 							<div class="col-md-12">
 							<p>
-								
-							</p>
-							<p>
 								Since, the duration of the project was small(1 month), there is a lot of room for improvement. Given that we have enough amount of time and resources, we could have done things a lot differently and made this small project into a complete app store publishable game . Here are the following things that we plan to integrate into the game:
 								<ol>
-									<li></li>
+									<li><b>Bug removal: </b> WWe took utmost care to design our system consistently. But like very complicated system, we might have missed some boundary cases and there might be bug in the systems</li>
+									<li><b>Joystick type control system: </b> Right now, there are only 4 buttons to control the player there by giving it the grid like playing experience.</li>
+									<li><b>Reduce network latency: </b> We can reduce network latency by designing a specialised optimised messaging structure which will reduce the data load across the network while sending messages.</li>
 								</ol>
 							</p>
 							

@@ -106,7 +106,8 @@
 									<li>4 different Arenas</li>
 								</ul>
 							
-							<p>For a detailed demo click <a href="#" style="text-align: center;">[Add video link here]</a> for Youtube demo video</p>
+                            <p>For a detailed demo see below: </p>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Od3QqbnQWCc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 						</div>
 					</div>
 				</div>
@@ -126,7 +127,7 @@
 						<div class="row">
 							<div class="col-md-12">
 							<h2>How to install the game</h2>
-							<p> To install this game, download the game source code from <a href="#" style="text-align: center;">Add drive link here</a>. Unzip the file and open the project in xCode. Make sure you have Apple developer account. If you do not have the account then you will need to create one. After loading the code into the system, attach your iOS device where you want to install the game. Click on run button and the game will be installed on your iOS device. Repeat the process for other devices as well. You might need to change the application identifier to install the game.</p>
+							<p> To install this game, download the game source code from <a href="https://drive.google.com/file/d/1RhMxnK9ZOcRw950ADiHKWFYs5JM9fRyL/view?usp=sharing" style="text-align: center;">here</a>. Unzip the file and open the project in xCode. Make sure you have Apple developer account. If you do not have the account then you will need to create one. After loading the code into the system, attach your iOS device where you want to install the game. Click on run button and the game will be installed on your iOS device. Repeat the process for other devices as well. You might need to change the application identifier to install the game.</p>
 							<h2>How to start the game?</h2>
 							<p>When you start the game, game room screen will pop-up containing the list of players in your room and the players who are available for playing. Please see below a screenshot.<br>
 							<div class="row"> 
@@ -158,7 +159,7 @@
 								</div>
 								<div class="col-md-3 col-sm-3 col-xs-3 work animate-box"></div>
 							</div>
-							 If you do not want to play on that surface, just change your position and the game will detect a different horizontal surface and will show a overlay at that surface. When you are readye with the surface to play with, just tap on the blue overlay and system will start to set up the game.A message will appear stating waiting for other players to join the game.<br>
+							 If you do not want to play on that surface, just change your position and the game will detect a different horizontal surface and will show a overlay at that surface. When you are ready with the surface to play with, just tap on the blue overlay and system will start to set up the game.A message will appear stating waiting for other players to join the game.<br>
 							<div class="row">
 								<div class="col-md-3 col-sm-3 col-xs-3 work animate-box"></div> 
 								<div class="col-md-6 col-sm-6 col-xs-6 work animate-box">
@@ -293,7 +294,7 @@
 							<p>To make sure that game does well, we had to take certain game architecture design decisions which in our opinion would work great. Following are the features that deserve a mention : </p>
 							<ul>
 								<li>To make sure that every player is looking at the same point, we shared the world coordinate system across all the players. Also, we made sure that there is only one anchor being tracked by the system so that everyone knows at which horizontal plane the system should show the game. </li>
-								<li>When thinking about the networking architecture, we could have employed master slave relationship between the players where the most of the work is done by the host and rest of the players receiving the result of the processing done by the host. However, this would have resulted in the large network latency. So we chose to use the multi peer connectivity architecture where all the players send their movements the other players and then each system simulating those movements at their end.</li>
+								<li>When thinking about the networking architecture, we could have employed master slave relationship between the players where the most of the work is done by the host and rest of the players receiving the result of the processing done by the host. However, this would have resulted in the large network latency. So we chose to use the multi peer connectivity architecture where all the players send their movements to the other players and then each system simulating those movements at their end.</li>
 								<li>To make sure consistency in game state, we periodically send crucial game state information from each user to other users so that they can update that players data accordingly.</li>
 								<li>To make sure that there is not much load on the bandwidth of the network, we also implemented the event based message system. For example, if a bullet if fired by one of the players then an event of firing a bullet is sent to all the peers and the interactions of that bullet with all the entities are handled respectively in all the devices.</li>
 								<li>Since, there has to be a consistent state across all the devices, we chose not to use the physics based system to get more control over the player movements. However, for bullet system we did utilise physics based approach as we do not really need to track the movements of the bullets but their end state.</li>
@@ -368,7 +369,7 @@
 								<a href="images/grass.png" class="image-popup">
 									<img src="images/grass.png" class="img-responsive"></a>
 								<h4 style="text-align: center;">Grass 3d model(Handmade)</h4>
-								<a href="https://drive.google.com/file/d/1Ok7qtTR6fxPDcgamO74dkYZu8ibLwv17/view?usp=sharing" style="text-align: center;"> Link</a> 
+								<a href="https://drive.google.com/file/d/1Ok7qtTR6fxPDcgamO74dkYZu8ibLwv17/view?usp=sharing" style="text-align: center;"> Link</a>
 							</div>
 						</div>
 						<div class="row">
